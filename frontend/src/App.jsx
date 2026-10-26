@@ -6,7 +6,7 @@ import {
 import './App.css';
 
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const API = import.meta.env.VITE_API_URL || 'https://qwerty-i8su.vercel.app/api';
 const TZ = 'Europe/London';
 // Decisions made in January 2026 are for delivery on 2 Jan to 1 Feb 2026
 const DATE_MIN = '2026-01-02';
